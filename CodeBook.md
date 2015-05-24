@@ -4,7 +4,7 @@ Column
 
 1	activity_code		
 		Activity code
-			1	WALKING
+		1	WALKING
 		2	WALKING_UPSTAIRS
 		3	WALKING_DOWNSTAIRS
 		4	SITTING
@@ -22,50 +22,52 @@ Column
 
 3	volunteer_num	
 	Volunteer number
-		1..30 .Integer number of each volunteer
+		1..30; Integer number of each volunteer
 
 4	tBodyAcc-mean()-X	
-		Mean of Body Acceleration on the X axis
-Number normalized between -1.0000 and 1.0000
+		
+Mean of Body Acceleration on the X axis; Number normalized between -1.0000 and 1.0000
 
 5	tBodyAcc-mean()-Y	
-		Mean of Body Acceleration on the Y axis
-Number normalized between -1.0000 and 1.0000
+		
+		Mean of Body Acceleration on the Y axis; 
+		
+			Number normalized between -1.0000 and 1.0000
 
 6	tBodyAcc-mean()-Z	
-		Mean of Body Acceleration on the Z axis
-Number normalized between -1.0000 and 1.0000
+		
+Mean of Body Acceleration on the Z axis; Number normalized between -1.0000 and 1.0000
 
 7	tBodyAcc-std()-X 
-		Standard deviation of Body Acceleration on the X axis
-Number normalized between -1.0000 and 1.0000
+
+Standard deviation of Body Acceleration on the X axis; Number normalized between -1.0000 and 1.0000
 
 8	tBodyAcc-std()-Y 
-		Standard deviation of Body Acceleration on the Y axis
+		Standard deviation of Body Acceleration on the Y axis; 
 Number normalized between -1.0000 and 1.0000
 
 9	tBodyAcc-std()-Z
-		Standard deviation of Body Acceleration on the Z axis
+		Standard deviation of Body Acceleration on the Z axis; 
 Number normalized between -1.0000 and 1.0000
 
 10	tGravityAcc-mean()-X
-		Mean of Gravity Acceleration on the X axis
+		Mean of Gravity Acceleration on the X axis; 
 Number normalized between -1.0000 and 1.0000
 
 11	tGravityAcc-mean()-Y
-		Mean of Gravity Acceleration on the Y axis
+		Mean of Gravity Acceleration on the Y axis; 
 Number normalized between -1.0000 and 1.0000
 
 12	tGravityAcc-mean()-Z
-		Mean of Gravity Acceleration on the Z axis
+		Mean of Gravity Acceleration on the Z axis; 
 Number normalized between -1.0000 and 1.0000
 
 13	tGravityAcc-std()-X  
-		Standard deviation of Gravity Acceleration on the X axis
+		Standard deviation of Gravity Acceleration on the X axis; 
 Number normalized between -1.0000 and 1.0000
 
 14	tGravityAcc-std()-Y       
-		Standard deviation of Gravity Acceleration on the Y axis
+		Standard deviation of Gravity Acceleration on the Y axis; 
 Number normalized between -1.0000 and 1.0000
 
 15	tGravityAcc-std()-Z      
