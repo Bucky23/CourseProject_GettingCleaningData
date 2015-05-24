@@ -2,31 +2,49 @@ DATA DICTIONARY – SAMSUNG DATA
 
 Column
 
-1	activity_code		
+1	activity_code	
+
 		Activity code
+		
 		1	WALKING
+		
 		2	WALKING_UPSTAIRS
+		
 		3	WALKING_DOWNSTAIRS
+		
 		4	SITTING
+		
 		5	STANDING
+		
 		6	LAYING
 
-2	activity		
-	Activity Name – factor with 6 levels
+2	activity
+
+	Activity Name – factor with 6 levels:
+
 		LAYING
+
 		SITTING
+
 		STANDING
+
 		WALKING
+
 		WALKING_DOWNSTAIRS
+
 		WALKING_UPSTAIRS
 
-3	volunteer_num	
+3	volunteer_num
+
 	Volunteer number
+
 		1..30; Integer number of each volunteer
 
 4	tBodyAcc-mean()-X	
 		
-Mean of Body Acceleration on the X axis; Number normalized between -1.0000 and 1.0000
+		Mean of Body Acceleration on the X axis; 
+		
+			Number normalized between -1.0000 and 1.0000
 
 5	tBodyAcc-mean()-Y	
 		
@@ -36,15 +54,21 @@ Mean of Body Acceleration on the X axis; Number normalized between -1.0000 and 1
 
 6	tBodyAcc-mean()-Z	
 		
-Mean of Body Acceleration on the Z axis; Number normalized between -1.0000 and 1.0000
+		Mean of Body Acceleration on the Z axis; 
+		
+			Number normalized between -1.0000 and 1.0000
 
 7	tBodyAcc-std()-X 
 
-Standard deviation of Body Acceleration on the X axis; Number normalized between -1.0000 and 1.0000
+		Standard deviation of Body Acceleration on the X axis; 
+		
+			Number normalized between -1.0000 and 1.0000
 
 8	tBodyAcc-std()-Y 
+
 		Standard deviation of Body Acceleration on the Y axis; 
-Number normalized between -1.0000 and 1.0000
+
+			Number normalized between -1.0000 and 1.0000
 
 9	tBodyAcc-std()-Z
 		Standard deviation of Body Acceleration on the Z axis; 
